@@ -1,0 +1,66 @@
+/* Основні налаштування сторінки */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f2f5;
+    color: #2c3e50;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Шапка */
+header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    width: 100%;
+    padding: 3rem 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Контейнер контенту */
+.container {
+    max-width: 700px;
+    background: #ffffff;
+    padding: 40px;
+    margin: -30px 20px 40px 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+h1 { margin: 0; font-size: 2.5rem; }
+h2 { color: #764ba2; margin-top: 0; }
+
+/* Картка або список */
+.feature-list {
+    list-style: none;
+    padding: 0;
+}
+
+.feature-list li {
+    background: #f8f9fa;
+    margin: 10px 0;
+    padding: 15px;
+    border-left: 5px solid #667eea;
+    border-radius: 4px;
+}
+
+/* Кнопка */
+.main-button {
+    display: inline-block;
+    background: #764ba2;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s;
+}
+
+.main-button:hover {
+    background: #667eea;
+    transform: translateY(-2px);
+}
